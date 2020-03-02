@@ -9,6 +9,7 @@ app.use(express.static("public"));
 app.use(require("./controllers/index"));
 app.use(require("./controllers/aboutUs"));
 app.use(require("./controllers/schools"));
+app.use(require("./controllers/cars"));
 
 app.listen(port, () => {
   console.log("listening on port 3000");

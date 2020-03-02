@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <div>
+      <a href="/cars/0">Lambo </a><a href="/cars/1">Cyber Truck</a
+      ><a href="/cars/2">Volkswagen</a>
+    </div>
+    <h2><%= carBlogs.carName %></h2>
+    <div><%= carBlogs.header %></div>
+    <div>
+      <%= carBlogs.body %> <br />
+      by: <%= carBlogs.author %>
+    </div>
+    <img width="300px" src="<%= carBlogs.imageURL %>" alt="" />
+  </body>
+</html>
